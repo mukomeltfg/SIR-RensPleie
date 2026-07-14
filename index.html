@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SIR Rens & Pleie | Profesjonell Bilpleie</title>
+
+    <meta name="description" content="Profesjonell bilvask og bilpleie i Norge. Vi tilbyr premium vask, detailing og innvendig rengjøring.">
+    <meta name="keywords" content="Bilvask, Bilpleie, Detailing, Norge, SIR Rens & Pleie">
+    <meta name="author" content="SIR Rens & Pleie">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<header>
+<div class="language-switcher">
+
+<select id="languageSelect" onchange="changeLanguage()">
+
+<option value="no">🇳🇴 Norsk</option>
+
+<option value="en">🇬🇧 English</option>
+
+<option value="ru">🇷🇺 Русский</option>
+
+</select>
+
+</div>
+<nav class="navbar">
+
+<div class="logo">
+    SIR Rens & Pleie
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home" data-lang="nav_home">Hjem</a></li>
+
+<li><a href="#services" data-lang="nav_services">Tjenester</a></li>
+
+<li><a href="#gallery" data-lang="nav_gallery">Galleri</a></li>
+
+<li><a href="#reviews" data-lang="nav_reviews">Anmeldelser</a></li>
+
+<li><a href="#faq" data-lang="nav_faq">FAQ</a></li>
+
+<li><a href="#contact" data-lang="nav_contact">Kontakt</a></li>
+</ul>
+
+<a href="#" class="nav-button">
+<span data-lang="book_btn">Bestill Time</span>
+</a>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<h1 data-lang="hero_title">
+Premium Bilpleie
+</h1>
+
+<p data-lang="hero_text">
+Profesjonell bilvask og detailing med fokus på kvalitet, glans og perfeksjon.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#services" class="btn-primary" data-lang="hero_book">
+Bestill Time
+</a>
+<a href="https://g.page/r/CZd1G_ODAYcOEBM/review"
+   target="_blank"
+   class="btn-review">
+⭐ Legg igjen anmeldelse
+</a>
+<a href="tel:+4793953581" class="btn-secondary" data-lang="hero_call">
+Ring Nå
+</a>
+
+<a href="#contact" class="btn-secondary" data-lang="hero_hours">
+🕒 Åpningstider
+</a>
+<a href="#servicearea" class="btn-secondary" data-lang="hero_area">
+📍 Serviceområde
+</a>
+</div>
+
+</div>
+
+</section>
+<section id="services" class="services">
+
+    <div class="section-title">
+        <h2>Våre Tjenester</h2>
+        <p>Velg tjenesten som passer bilen din.</p>
+    </div>
+
+    <div class="service-grid">
+
+        <div class="service-card">
+           
+
+            <div class="service-content">
+                <h3>🛋 Møbelrens</h3>
+<p>Profesjonell rens av sofaer, stoler og andre polstrede møbler.</p>
+
+<div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+                <p>Rask utvendig vask med skum, håndvask og tørking.</p>
+
+                <div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+
+                <button class="book-btn" data-service="Express Wash">
+                    Bestill
+                </button>
+            </div>
+        </div>
+
+        <div class="service-card">
+           
+
+            <div class="service-content">
+                <h3>🚗 Bilinteriør</h3>
+<p>Komplett innvendig rens av bilen.</p>
+
+<div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+                <p>Grundig utvendig vask med felgrens og voks.</p>
+
+                <div class="service-info">
+                    <div 
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+
+                <button class="book-btn" data-service="Exterior Wash">
+                    Bestill
+                </button>
+            </div>
+        </div>
+
+        <div class="service-card">
+            
+            <div class="service-content">
+                <h3>🛏 Madrassrens</h3>
+<p>Dyprens av madrasser og fjerning av flekker.</p>
+
+<div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+                <p>Komplett vask innvendig og utvendig med premium finish.</p>
+
+                <div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+
+                <button class="book-btn" data-service="Complete Wash">
+                    Bestill
+                </button>
+            </div>
+        </div>
+
+        <div class="service-card">
+            
+            <div class="service-content">
+                <h3>🧼 Tepperens</h3>
+<p>Profesjonell rens av tepper og gulvtepper.</p>
+
+<div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+                <p>Dybderens av interiør, tepper, seter og plastdetaljer.</p>
+
+                <div class="service-info">
+    <span>Pris beregnes individuelt</span>
+    <span>Etter avtale</span>
+</div>
+
+                <button class="book-btn" data-service="Innvendig Rengjøring">
+                    Bestill
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>350+</h2>
+        <p>Biler vasket</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>4.9★</h2>
+        <p>Kundevurdering</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>100%</h2>
+        <p>Kvalitet</p>
+    </div>
+
+</section>
+
+<section id="gallery" class="gallery">
+
+    <div class="section-title">
+        <h2>Før / Etter</h2>
+        <p>Se resultatene av arbeidet vårt.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <img src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?auto=format&fit=crop&w=900&q=80" alt="Bil 1">
+
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=900&q=80" alt="Bil 2">
+
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=900&q=80" alt="Bil 3">
+
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Bil 4">
+
+    </div>
+
+</section>
+
+<section id="reviews" class="reviews">
+
+    <div class="section-title">
+        <h2>Kundeanmeldelser</h2>
+    </div>
+
+    <div class="review-grid">
+
+        <div class="review-card">
+            <h3>Martin Hansen</h3>
+            <div>★★★★★</div>
+            <p>Fantastisk service. Bilen ser helt ny ut.</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Emma Johansen</h3>
+            <div>★★★★★</div>
+            <p>Rask service og utrolig godt resultat.</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Daniel Olsen</h3>
+            <div>★★★★★</div>
+            <p>Jeg anbefaler SIR Rens & Pleie til alle.</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="faq" class="faq">
+
+    <div class="section-title">
+        <h2>Ofte stilte spørsmål</h2>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Hvor lang tid tar en bilvask?</button>
+        <div class="faq-answer">
+            <p>Vanligvis mellom 30 og 120 minutter, avhengig av valgt tjeneste.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Kommer dere hjem til kunden?</button>
+        <div class="faq-answer">
+            <p>Ja, vi tilbyr mobil bilpleie i store deler av området.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Hvilke betalingsmetoder godtar dere?</button>
+        <div class="faq-answer">
+            <p>Vi godtar Vipps, bankkort og kontanter.</p>
+        </div>
+    </div>
+
+    </button>
+<div class="faq-item">
+    <button class="faq-question">
+        Hva koster tjenesten?
+    </button>
+
+    <div class="faq-answer">
+        <p>
+            Prisene starter fra 300 NOK. Den endelige prisen vurderes individuelt etter inspeksjon av oppdraget.
+        </p>
+    </div>
+</div>
+    
+</section>
+<section id="servicearea" class="service-area">
+
+<div class="section-title">
+<h2>📍 Serviceområde</h2>
+
+<p>
+Vi tilbyr mobil bilpleie i følgende områder
+</p>
+
+</div>
+
+<div class="area-grid">
+
+<div class="area-card" onclick="chooseCity('Kongsberg')">Kongsberg</div>
+
+<div class="area-card" onclick="chooseCity('Notodden')">Notodden</div>
+
+<div class="area-card" onclick="chooseCity('Drammen')">Drammen</div>
+
+<div class="area-card" onclick="chooseCity('Mjøndalen')">Mjøndalen</div>
+
+<div class="area-card" onclick="chooseCity('Vestfossen')">Vestfossen</div>
+
+<div class="area-card" onclick="chooseCity('Hokksund')">Hokksund</div>
+
+<div class="area-card" onclick="chooseCity('Vikersund')">Vikersund</div>
+
+<div class="area-card" onclick="chooseCity('Lampeland')">Lampeland</div>
+
+<div class="area-card" onclick="chooseCity('Svene')">Svene</div>
+
+<div class="area-card" onclick="chooseCity('Hvittingfoss')">Hvittingfoss</div>
+
+<div class="area-card" onclick="chooseCity('Skollenborg')">Skollenborg</div>
+
+<div class="area-card" onclick="chooseCity('Darbu')">Darbu</div>
+
+<div class="area-card" onclick="chooseCity('Lampeland')">Lampeland</div>
+
+<div class="area-card" onclick="chooseCity('Svene')">Svene</div>
+
+<div class="area-card" onclick="chooseCity('Hvittingfoss')">Hvittingfoss</div>
+
+<div class="area-card" onclick="chooseCity('Skollenborg')">Skollenborg</div>
+
+<div class="area-card" onclick="chooseCity('Darbu')">Darbu</div>
+
+<div class="area-card" onclick="chooseCity('Åmot')">Åmot</div>
+
+</div>
+
+</section>
+<section id="contact" class="contact">
+
+    <div class="section-title">
+        <h2>Kontakt Oss</h2>
+    </div>
+
+    <div class="contact-box">
+
+    <p>📞 +47 939 53 581</p>
+
+    <p>✉️ Sirrenspleie@gmail.com</p>
+
+    <p>📍 Norge</p>
+
+    <br>
+
+    <h3>Åpningstider</h3>
+
+    <p>Mandag: 08:00–20:00</p>
+    <p>Tirsdag: 08:00–20:00</p>
+    <p>Onsdag: 08:00–20:00</p>
+    <p>Torsdag: 08:00–20:00</p>
+    <p>Fredag: 08:00–20:00</p>
+    <p>Lørdag: 09:00–18:00</p>
+    <p>Søndag: 09:00–17:00</p>
+
+</div>
+
+</section>
+<div class="map">
+    <iframe
+        src="https://www.google.com/maps?q=Kongsberg,+Norway&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;border-radius:18px;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+<div class="support-button" id="supportButton">
+    💬
+</div>
+
+<div class="modal" id="bookingModal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <h2>Bestill Time</h2>
+
+      <form id="bookingForm">
+
+            <input type="text" name="name" placeholder="Navn" required>
+
+<input type="tel" name="phone" placeholder="Telefon" required>
+
+<input type="text" name="brand" placeholder="Bilmerke">
+
+<input type="text" name="model" placeholder="Bilmodell">
+<select name="city" required>
+
+    <option value="">Velg by</option>
+
+    <option>Kongsberg</option>
+
+    <option>Notodden</option>
+
+    <option>Drammen</option>
+
+    <option>Mjøndalen</option>
+
+    <option>Vestfossen</option>
+
+    <option>Hokksund</option>
+
+    <option>Vikersund</option>
+
+    <option>Lampeland</option>
+
+    <option>Svene</option>
+
+    <option>Hvittingfoss</option>
+
+    <option>Skollenborg</option>
+
+    <option>Darbu</option>
+
+    <option>Åmot</option>
+
+</select>
+<input
+    type="text"
+    name="service"
+    id="service"
+    placeholder="Tjeneste"
+    readonly
+>
+<input type="text" id="promoCode" placeholder="Promokode (valgfritt)">
+
+<input type="date" name="date" required>
+
+<button type="submit">
+    Bestill Nå
+</button>
+
+</form>
+
+</div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function () {
+    emailjs.init({
+    publicKey: "mCfxgH4AEKjKY7aIi"
+});
+})();
+</script>
+<script src="script.js"></script>
+<div id="serviceModal" class="service-modal">
+
+    <div class="service-box">
+
+        <h2>Velg tjeneste</h2>
+
+        <button onclick="selectService('Møbelrens')">🛋 Møbelrens</button>
+
+        <button onclick="selectService('Bilinteriør')">🚗 Bilinteriør</button>
+
+        <button onclick="selectService('Sofarens')">🛋 Sofarens</button>
+
+        <button onclick="selectService('Madrassrens')">🛏 Madrassrens</button>
+
+        <button onclick="selectService('Tepperens')">🧼 Tepperens</button>
+
+        <button class="close-service" onclick="closeServiceModal()">
+            Avbryt
+        </button>
+
+    </div>
+
+</div>
+</body>
+</html>
